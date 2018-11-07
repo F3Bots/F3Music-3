@@ -316,7 +316,6 @@ client.on('message', message => {
     if (message.content === '3help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (R)**')
         .addField('3play', 'لتشغيل اغنية')
         .addField('3vol', ' لرفع الصوت')
         .addField('3ping', 'لرؤية بنق البوت')
